@@ -1,5 +1,6 @@
 <!doctype html>
 {% load static %}
+{% load i18n %}
 <html  class="no-js">
 
 <head>
@@ -56,15 +57,15 @@
                                 <div class="mainmenu-nav d-none d-lg-block w-100 pr-3">
                                     <ul class="mainmenu d-lg-flex jusity-content-end jusity-content-lg-start pt-4">
                                         <li class="mainmenu__item menu-item-has-children active">
-                                            <a href="index.html" class="mainmenu__link">
-                                                <span class="mm-text">خانه</span>
+                                            <a href="{% url "products:product_list" %}" class="mainmenu__link">
+                                                <span class="mm-text">{% trans "product list" %}</span>
                                             </a>
                                         </li>
-                                        <li class="mainmenu__item menu-item-has-children">
+                                        {% comment %} <li class="mainmenu__item menu-item-has-children">
                                             <a href="Blog.html" class="mainmenu__link">
                                                 <span class="mm-text">وبلاگ</span>
                                             </a>
-                                        </li>
+                                        </li> {% endcomment %}
                                         <li class="mainmenu__item menu-item-has-children">
                                             <a href="#" class="mainmenu__link">
                                                 <span class="mm-text">صفحات</span>
