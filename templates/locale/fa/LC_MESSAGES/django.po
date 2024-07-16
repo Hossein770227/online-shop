@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-16 14:39+0330\n"
-"PO-Revision-Date: 2024-07-16 14:43+0330\n"
+"POT-Creation-Date: 2024-07-16 14:47+0330\n"
+"PO-Revision-Date: 2024-07-16 14:48+0330\n"
 "Last-Translator: Anonymous User <anonymous@user.tld>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,6 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
+#: .\registration\login.html:15 .\registration\login.html:30
+#: .\registration\login.html:35
+msgid "login"
+msgstr "ورود"
+
+#: .\registration\password_change.html:15
+#: .\registration\password_change.html:30
+msgid "password change"
+msgstr "تغییر گذرواژه"
+
+#: .\registration\password_change.html:35
+msgid "change"
+msgstr "تغییر"
+
 #: .\registration\user_register.html:15 .\registration\user_register.html:30
 msgid "signup"
 msgstr "ثبت نام"
@@ -26,3 +40,15 @@ msgstr "ثبت نام"
 #: .\registration\user_register.html:35
 msgid "register"
 msgstr "ثبت نام "
+
+#: .\registration\verify_code.html:15
+msgid "verify code"
+msgstr "کد تایید"
+
+#: .\registration\verify_code.html:30
+msgid "verify"
+msgstr "تایید کد"
+
+#: .\registration\verify_code.html:35
+msgid "submit"
+msgstr "ارسال"
