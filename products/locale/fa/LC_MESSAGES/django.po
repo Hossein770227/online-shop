@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-18 21:33+0330\n"
+"PO-Revision-Date: 2024-07-18 21:36+0330\n"
+"Last-Translator: Anonymous User <anonymous@user.tld>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\models.py:7
+msgid "title"
+msgstr "عنوان"
+
+#: .\models.py:8
+msgid "description"
+msgstr "توضیحات"
+
+#: .\models.py:9
+msgid "short description"
+msgstr "توضیحات کوتاه"
+
+#: .\models.py:10
+msgid "price"
+msgstr "قیمت"
+
+#: .\models.py:11
+msgid "image"
+msgstr "تصویر"
+
+#: .\models.py:12
+msgid "price with discount"
+msgstr "قیمت بدون تخفیف "
+
+#: .\models.py:13 .\models.py:40
+msgid "active"
+msgstr "فعال"
+
+#: .\models.py:14 .\models.py:41
+msgid "date time created"
+msgstr "تاریخ ایجاد"
+
+#: .\models.py:17 .\models.py:18
+msgid "products"
+msgstr "محصولات"
+
+#: .\models.py:29
+msgid "very bad"
+msgstr "خیلی بد"
+
+#: .\models.py:30
+msgid " bad"
+msgstr "بد"
+
+#: .\models.py:31
+msgid "normal"
+msgstr "معمولی "
+
+#: .\models.py:32
+msgid "good"
+msgstr "خوب"
+
+#: .\models.py:33
+msgid "perfect"
+msgstr "عالی"
+
+#: .\models.py:36
+msgid "author"
+msgstr "نویسنده"
+
+#: .\models.py:37
+msgid "product"
+msgstr "محصول"
+
+#: .\models.py:38
+msgid "text comment"
+msgstr "متن دیدگاه"
+
+#: .\templates\products\product_detail.html:4
+#: .\templates\products\product_detail.html:13
+msgid "product detail"
+msgstr "جزئیات محصول"
+
+#: .\templates\products\product_detail.html:40
+#: .\templates\products\product_detail.html:43
+#: .\templates\products\product_detail.html:212
+#: .\templates\products\product_detail.html:230
+#: .\templates\products\product_detail.html:248
+#: .\templates\products\product_detail.html:255
+#: .\templates\products\product_list.html:56
+#: .\templates\products\product_list.html:60
+msgid "$"
+msgstr "تومان"
+
+#: .\templates\products\product_detail.html:53
+#: .\templates\products\product_list.html:64
+msgid "add to cart"
+msgstr "اضافه به سبد خرید"
+
+#: .\templates\products\product_detail.html:114
+msgid "comment for "
+msgstr "نظر برای "
+
+#: .\templates\products\product_detail.html:156
+msgid "submit"
+msgstr "ارسال"
+
+#: .\templates\products\product_list.html:3
+msgid "product list"
+msgstr "لیست محصولات"
+
+#: .\templates\products\product_list.html:16
+msgid "show"
+msgstr "نمایش"
+
+#: .\templates\products\product_list.html:48
+msgid "discount spicail"
+msgstr "تخفیف ویژه"
