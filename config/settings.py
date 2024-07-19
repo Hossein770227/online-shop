@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'jalali_date',
     'crispy_forms',
     'crispy_bootstrap5',
+    'ckeditor',
     'rosetta',
     # my apps
     'accounts',
