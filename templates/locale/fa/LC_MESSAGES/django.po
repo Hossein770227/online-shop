@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 14:35+0330\n"
-"PO-Revision-Date: 2024-07-19 14:36+0330\n"
+"POT-Creation-Date: 2024-07-20 00:27+0330\n"
+"PO-Revision-Date: 2024-07-20 00:27+0330\n"
 "Last-Translator: Anonymous User <anonymous@user.tld>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -40,6 +40,18 @@ msgstr "ورود"
 #: .\registration\user_register.html:30
 msgid "signup"
 msgstr "ثبت نام"
+
+#: .\footer.html:16
+msgid "about us"
+msgstr "درباره ما"
+
+#: .\footer.html:17
+msgid "term and condition"
+msgstr "قانون ومقررات"
+
+#: .\footer.html:18
+msgid "call with us"
+msgstr "تماس با ما"
 
 #: .\registration\password_change.html:15
 #: .\registration\password_change.html:30
