@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'accounts',
     'products',
     'pages',
-    'translate_persion',
+    'translate_persian',
 ]
 
 
