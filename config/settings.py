@@ -43,16 +43,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # third party apps
+    'jalali_date',
+    'crispy_forms',
+    'crispy_bootstrap5',
+    'rosetta',
     # my apps
     'accounts',
     'products',
     'pages',
-
-    # third party apps
-    'crispy_forms',
-    'crispy_bootstrap5',
-    'rosetta',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
