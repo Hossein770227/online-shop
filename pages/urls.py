@@ -5,6 +5,6 @@ from . import views
 app_name ='pages'
 
 urlpatterns = [
-    path('', views.CallWithUs.as_view(), name='call_us'),
+    path('', views.call_with_us, name='call_us'),
 ]
 

@@ -4,4 +4,4 @@ from .models import CallUs
 
 @admin.register(CallUs)
 class CallUsAdmin(admin.ModelAdmin):
-    list_display = ['user', 'email', 'date_time_created']
+    list_display = [ 'email', 'date_time_created']
