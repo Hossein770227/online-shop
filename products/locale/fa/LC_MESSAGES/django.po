@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 21:33+0330\n"
-"PO-Revision-Date: 2024-07-18 21:36+0330\n"
+"POT-Creation-Date: 2024-07-19 14:35+0330\n"
+"PO-Revision-Date: 2024-07-19 14:37+0330\n"
 "Last-Translator: Anonymous User <anonymous@user.tld>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -127,3 +127,7 @@ msgstr "نمایش"
 #: .\templates\products\product_list.html:48
 msgid "discount spicail"
 msgstr "تخفیف ویژه"
+
+#: .\views.py:26
+msgid "your comment successfully added"
+msgstr "نظر شما با موفقیت ثبت شد."
