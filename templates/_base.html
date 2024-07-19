@@ -100,6 +100,7 @@
                                     <ul class="user-info-menu">
                                         {% if user.is_authenticated %}
                                             <li>
+
                                                 <a class="text-right" href="my-account.html">{% trans "prodfile" %}</a>
                                             </li>
                                             <li>
@@ -136,6 +137,7 @@
         </header>
         <!-- Header End -->
 
+        {% include "messages.html" %}
         {% block content %}
         {% endblock content %}
         {% include "footer.html" %}
@@ -217,6 +219,7 @@
                 </div>
             </div>
         </aside>
+        
         <!-- Mini Cart End -->
 
         <!-- Global Overlay Start -->
@@ -225,7 +228,6 @@
 
     </div>
     <!-- Main Wrapper End -->
- 
 
     <!-- ************************* JS Files ************************* -->
 

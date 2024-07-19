@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from environs import Env
 from pathlib import Path
+from django.contrib.messages import constants
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -166,3 +167,8 @@ LANGUAGES =(
     ('en', 'English'),
     ('fa', 'Persian'),
 )
+
+# messages config
+MESSAGE_TAGS={
+    constants.ERROR:"danger",
+}

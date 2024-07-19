@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
+from django.contrib import messages
+from django.utils.translation import gettext as _
 
 from .models import Product, Comment
 from .forms import CommentForm
@@ -21,6 +23,7 @@ def product_detail_view(request, pk):
             new_comment.author = request.user
             new_comment.product = product
             new_comment.save()
+            messages.success(request, _('your comment successfully added'))
             comment_form = CommentForm()
     else:
         comment_form =CommentForm()
