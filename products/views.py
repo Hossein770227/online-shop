@@ -5,6 +5,7 @@ from django.utils.translation import gettext as _
 
 from .models import Product, Comment
 from .forms import CommentForm
+from cart.forms import AddToCartForm
 
 class ProductListView(generic.ListView):
     model = Product
@@ -15,6 +16,7 @@ class ProductListView(generic.ListView):
 
 def product_detail_view(request, pk):
     product = get_object_or_404(Product, pk=pk)
+    add_to_cart_form = AddToCartForm()
     comment = Comment.objects.filter(active=True).order_by('date_time_created')
     if request.method =='POST':
         comment_form = CommentForm(request.POST)
@@ -27,6 +29,6 @@ def product_detail_view(request, pk):
             comment_form = CommentForm()
     else:
         comment_form =CommentForm()
-    return render(request,  'products/product_detail.html', context={'product':product, 'comments':comment, 'comment_form':comment_form})
+    return render(request,  'products/product_detail.html', context={'product':product, 'comments':comment, 'comment_form':comment_form,'add_to_cart_form':add_to_cart_form})
 
 
