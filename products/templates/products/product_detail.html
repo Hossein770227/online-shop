@@ -60,11 +60,11 @@
                                     </form>
                                 </div>
                                 <div class="product-footer-meta mt-5 pt-5">
-                                    <p><span class="m-0">دسته بندی ها:</span>
-                                        <a href="shop.html">لباس</a>,
-                                        <a href="shop.html">تابستانی</a>,
-                                        <a href="shop.html">گرم</a>,
-                                        <a href="shop.html">زنانه</a>
+                                    <p><span class="m-0">{% trans "Category" %}</span>
+                                        <a href="shop.html">{% trans "Dress" %}</a>,
+                                        <a href="shop.html">{% trans "summery" %}</a>,
+                                        <a href="shop.html">{% trans "warm" %}</a>,
+                                        <a href="shop.html">{% trans "feminine" %}</a>
                                     </p>
                                 </div>
                             </div>
@@ -75,13 +75,13 @@
                             <div class="product-data-tab tab-style-3">
                                 <div class="nav nav-tabs product-data-tab__head" id="product-tab" role="tablist">
                                     <a class="m-0 product-data-tab__link nav-link active" id="nav-description-tab" data-toggle="tab" href="#nav-description" role="tab" aria-selected="true">
-                                        <span>توضیحات محصول</span>
+                                        <span>{% trans "product description" %}</span>
                                     </a>
                                     <a class="m-0 product-data-tab__link nav-link" id="nav-info-tab" data-toggle="tab" href="#nav-info" role="tab" aria-selected="true">
-                                        <span>ویژگی ها</span>
+                                        <span>{% trans "attributes" %}</span>
                                     </a>
                                     <a class="m-0 product-data-tab__link nav-link" id="nav-reviews-tab" data-toggle="tab" href="#nav-reviews" role="tab" aria-selected="true">
-                                        <span>نظرات ({{comments.count|translate}})</span>
+                                        <span>{% trans "comments" %} ({{comments.count|translate}})</span>
                                     </a>
                                 </div>
                                 <div class="tab-content product-data-tab__content" id="product-tabContent">
@@ -95,20 +95,20 @@
                                             <table class="table shop_attributes">
                                                 <tbody>
                                                     <tr>
-                                                        <th>وزن</th>
-                                                        <td>۴۳۰ گرم</td>
+                                                        <th>{% trans "Weight" %}</th>
+                                                        <td>۴۳۰ {% trans "gr" %}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>سایز</th>
+                                                        <th>{% trans "size" %}</th>
                                                         <td>XL</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>رنگ</th>
+                                                        <th>{% trans "color" %}</th>
                                                         <td>
-                                                            <a href="shop-sidebar.html">مشکی</a>,
-                                                            <a href="shop-sidebar.html">سبز</a>,
-                                                            <a href="shop-sidebar.html">قرمز</a>,
-                                                            <a href="shop-sidebar.html">نارنجی</a>,
+                                                            <a href="shop-sidebar.html">{% trans "block" %}</a>,
+                                                            <a href="shop-sidebar.html">{% trans "green" %}</a>,
+                                                            <a href="shop-sidebar.html">{% trans "red" %}</a>,
+                                                            <a href="shop-sidebar.html">{% trans "orange" %}</a>,
                                                         </td>
                                                     </tr>
                                                 </tbody>
