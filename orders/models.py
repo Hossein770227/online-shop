@@ -13,6 +13,10 @@ class Order(models.Model):
     date_time_created = models.DateTimeField(_("date time created"), auto_now_add=True)
     date_time_modified = models.DateTimeField(_("date time modified"), auto_now=True)
 
+    class Meta:
+        verbose_name = _('orders')
+        verbose_name_plural = _('orders')
+
     def __str__(self):
         return f'order {self.id}'
 
@@ -21,6 +25,10 @@ class OrderItem(models.Model):
     product = models.ForeignKey("products.Product", verbose_name=_("product"), on_delete=models.CASCADE, related_name='order_items')
     quantity = models.PositiveIntegerField(_("quantity"), default=1)
     price = models.PositiveIntegerField(_("price"))
+
+    class Meta:
+        verbose_name = _('order item')
+        verbose_name_plural = _('order item')
 
     def __str__(self):
         return f'order item {self.id} order {self.order}'
