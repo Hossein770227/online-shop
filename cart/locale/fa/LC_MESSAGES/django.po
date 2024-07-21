@@ -8,53 +8,56 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 21:51+0330\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-07-21 23:12+0330\n"
+"PO-Revision-Date: 2024-07-21 23:13+0330\n"
+"Last-Translator: Anonymous User <anonymous@user.tld>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
 #: .\templates\cart\cart_detail.html:6
 msgid "cart detail"
-msgstr ""
+msgstr "جزئیات سبد خرید"
 
 #: .\templates\cart\cart_detail.html:15
 msgid "cart"
-msgstr ""
+msgstr "سبد خرید"
+
+#: .\templates\cart\cart_detail.html:36
+msgid "image product"
+msgstr "عکس محصول"
 
 #: .\templates\cart\cart_detail.html:37
-msgid "image product"
-msgstr ""
+msgid "product name"
+msgstr "نام محصول"
 
 #: .\templates\cart\cart_detail.html:38
-msgid "product name"
-msgstr ""
+msgid "price"
+msgstr "قیمت "
 
 #: .\templates\cart\cart_detail.html:39
-msgid "price"
-msgstr ""
-
-#: .\templates\cart\cart_detail.html:40
 msgid "quantity"
-msgstr ""
+msgstr "تعداد"
 
-#: .\templates\cart\cart_detail.html:41 .\templates\cart\cart_detail.html:100
-#: .\templates\cart\cart_detail.html:104
+#: .\templates\cart\cart_detail.html:40 .\templates\cart\cart_detail.html:103
+#: .\templates\cart\cart_detail.html:107
 msgid "total"
-msgstr ""
+msgstr "جمع کل"
 
-#: .\templates\cart\cart_detail.html:62 .\templates\cart\cart_detail.html:80
-#: .\templates\cart\cart_detail.html:108 .\templates\cart\mini_cart.html:24
+#: .\templates\cart\cart_detail.html:61 .\templates\cart\cart_detail.html:84
+#: .\templates\cart\cart_detail.html:111 .\templates\cart\mini_cart.html:25
+#: .\templates\cart\mini_cart.html:33
 msgid "$"
-msgstr ""
+msgstr "تومان"
 
-#: .\templates\cart\cart_detail.html:92
+#: .\templates\cart\cart_detail.html:96
 msgid "clear cart"
-msgstr ""
+msgstr "خالی کردن سبد خرید"
 
-#: .\templates\cart\cart_detail.html:115
+#: .\templates\cart\cart_detail.html:118
 msgid "checkout"
-msgstr ""
+msgstr "ثبت سفارش"
