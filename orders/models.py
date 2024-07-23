@@ -8,7 +8,7 @@ class Order(models.Model):
     full_name = models.CharField(_("full name"), max_length=150)
     email = models.EmailField(_("email"), max_length=254, blank=True, null=True)
     address= models.CharField(_("address"), max_length=700)
-    order_notes = models.CharField(_("order notes"), max_length=500)
+    order_notes = models.CharField(_("order notes"), max_length=500, blank=True)
     is_paid = models.BooleanField(_("is paid"), default=False)
     date_time_created = models.DateTimeField(_("date time created"), auto_now_add=True)
     date_time_modified = models.DateTimeField(_("date time modified"), auto_now=True)

@@ -6,7 +6,7 @@ from .models import Order, OrderItem
 class OrderItemTabuInline(admin.TabularInline):
     model = OrderItem
     list_display = ['product','quantity','price',]
-    extra = 1
+    extra = 0
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):

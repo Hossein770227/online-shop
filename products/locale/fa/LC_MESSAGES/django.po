@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-20 21:58+0330\n"
-"PO-Revision-Date: 2024-07-19 14:37+0330\n"
+"PO-Revision-Date: 2024-07-23 21:24+0330\n"
 "Last-Translator: Anonymous User <anonymous@user.tld>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -106,71 +106,69 @@ msgstr "اضافه به سبد خرید"
 
 #: .\templates\products\product_detail.html:63
 msgid "Category"
-msgstr ""
+msgstr "دسته بندی "
 
 #: .\templates\products\product_detail.html:64
 msgid "Dress"
-msgstr ""
+msgstr "لباس"
 
 #: .\templates\products\product_detail.html:65
 msgid "summery"
-msgstr ""
+msgstr "تابستانی"
 
 #: .\templates\products\product_detail.html:66
 msgid "warm"
-msgstr ""
+msgstr "گرم"
 
 #: .\templates\products\product_detail.html:67
 msgid "feminine"
-msgstr ""
+msgstr "زنانه"
 
 #: .\templates\products\product_detail.html:78
-#, fuzzy
 #| msgid "short description"
 msgid "product description"
-msgstr "توضیحات کوتاه"
+msgstr "توضیحات محصول"
 
 #: .\templates\products\product_detail.html:81
 msgid "attributes"
-msgstr ""
+msgstr "ویژگی ها"
 
 #: .\templates\products\product_detail.html:84
-#, fuzzy
 #| msgid "text comment"
 msgid "comments"
-msgstr "متن دیدگاه"
+msgstr "نظرات"
 
 #: .\templates\products\product_detail.html:98
 msgid "Weight"
-msgstr ""
+msgstr "وزن"
 
 #: .\templates\products\product_detail.html:99
 msgid "gr"
-msgstr ""
+msgstr "گرم"
 
 #: .\templates\products\product_detail.html:102
 msgid "size"
-msgstr ""
+msgstr "سایز"
 
 #: .\templates\products\product_detail.html:106
 msgid "color"
-msgstr ""
+msgstr "رنگ"
 
 #: .\templates\products\product_detail.html:108
 msgid "block"
-msgstr ""
+msgstr "مشکی"
 
 #: .\templates\products\product_detail.html:109
 msgid "green"
-msgstr ""
+msgstr "سبز"
 
 #: .\templates\products\product_detail.html:110
 msgid "red"
-msgstr ""
+msgstr "قرمز"
 
 #: .\templates\products\product_detail.html:111
 msgid "orange"
-msgstr ""
+msgstr "نارنجی"
 
 #: .\templates\products\product_detail.html:120
 msgid "comment for "

@@ -74,10 +74,10 @@
                                                                 min="1"
                                                                 max='30'
                                                                 >
-                                                                {{item.product_update_quantity_form.inplace}}
-                                                                <button type='submit'>update</button>
                                                             </div>
-                                                            <form>
+                                                            <button type='submit'>update</button>
+                                                        {{item.product_update_quantity_form.inplace}}
+                                                        <form>
                                                     </td>
                                                     <td class="product-total-price">
                                                         <span class="product-price-wrapper">
@@ -114,7 +114,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="checkout.html" class="btn btn-fullwidth btn-bg-red btn-color-white btn-hover-2">
+                            <a href="{% url "orders:order_create" %}" class="btn btn-fullwidth btn-bg-red btn-color-white btn-hover-2">
                                 {% trans "checkout" %}
                             </a>
                         </div>
