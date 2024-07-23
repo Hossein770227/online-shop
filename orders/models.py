@@ -17,6 +17,9 @@ class Order(models.Model):
         verbose_name = _('orders')
         verbose_name_plural = _('orders')
 
+    def get_total_price(self):
+        return sum(item.quantity * item.price for item in self.items.all())
+
     def __str__(self):
         return f'order {self.id}'
 
